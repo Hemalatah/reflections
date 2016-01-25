@@ -1,0 +1,28 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+	Its good to see the difference between the files even it has an unlimited number of lines. But user has to manually save each version of the file, otherwise it cannot be used to find out the difference. As a whole, Diff is much better than manual file comparing!!!
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+	Entire History access helps to checkout any version of the code meaning that if there is any bug in the recent version, getting back to old version to continue is pretty easy.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+	Like Git does, manually saving each commit is a challenge like always to remember one commit per one logical change, otherwise there will be more or less commits than the normal.But in automated commit savind system like google docs, user does not have to worry about number of commits made.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+	In this case, I can see the pros of using Git. If more than one file is stored in a repository, everytime when a commit is made, all the files stored in the repo are checked for changes. It helps the user to avoid spending time on changing each and every files individually as google docs does.
+
+How can you use the commands git log and git diff to view the history of files?
+
+	current working directory in the terminal should be the one which is cloned from the git repo, where if git log is typed, it gives the whole history of commits. Remember, the commit appears first is the recently commited version.
+	Git diff is used to find the difference between the two successive commits using the following format:
+	git diff first_id second_id 
+
+		first_id: id of which the change is commited
+		second_id: id of previously commited version.
+
+How might using version control make you more confident to make changes that could break something?
+
+	I can obviously make a commit which could break my code because I have git checkout to go to any of the previous versions to overcome it.
