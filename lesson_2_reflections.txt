@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	Once the new repo is initialized and typed git status, it will show up the untracked files and also recommend you to do 'git add'.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	Staging area is the stage where more than one untracked files from working directory can be added before making a single commit of them to repo
