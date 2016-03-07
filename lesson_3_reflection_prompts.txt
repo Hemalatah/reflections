@@ -13,4 +13,9 @@ Describe the differences between forks, clones, and branches. When would you use
 	clone  - to get a repo from my github account to my local machine to work on it.
 
 	branch - to branch the particular commit to make some changes on it without changing the master. It makes sense when that changes add some bugs which obviously would not affect the repo till we do merging.
-  
+ 
+ What is the benefit of having a copy of the last known state of the remote stored locally?
+
+ 	git fetch helps for getting other's changes to my github, now if i commit my changes i can see merge conflict if we both have done changes in the same line.
+
+ 	now we need to resolve the merge conflict manually and then we can add, commit and push my changes to github.
