@@ -19,3 +19,7 @@ Describe the differences between forks, clones, and branches. When would you use
  	git fetch helps for getting other's changes to my github, now if i commit my changes i can see merge conflict if we both have done changes in the same line.
 
  	now we need to resolve the merge conflict manually and then we can add, commit and push my changes to github.
+
+ How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+ 	git and github is lot more easier. Things would not have been imaginable without these systems.
